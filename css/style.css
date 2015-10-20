@@ -1,0 +1,69 @@
+.container  {
+  position: relative;
+  top:100px;
+}
+
+nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+nav li {
+  display: inline;
+}
+
+.photo {
+  background-image:url('https://pixabay.com/get/9b973c7d0633b0032c19/1443578644/kittens-555822_1280.jpg?direct');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.photo p {
+  font-size: 20px;
+  color: #5a5a5a;
+}
+
+section {
+    background-color: #D4CEE2;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+section h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+section p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+section img {
+  height: 200px;
+  width: 200px;
+}
+
+footer {
+  background-color:  #D4CEE2;
+}
+
+footer h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer a {
+  color: #00b0ff;
+}
