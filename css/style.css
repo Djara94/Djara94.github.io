@@ -15,21 +15,22 @@ nav li {
   display: inline;
 }
 
-.photo {
-  background-image:url('https://pixabay.com/get/9b973c7d0633b0032c19/1443578644/kittens-555822_1280.jpg?direct');
+.jumbotron {
+  position: relative;
+  background-image: url("retriever.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.photo h1 {
+.jumbotron h1 {
   color: #fff;
   font-size: 48px;  
   font-family: 'Shift', sans-serif;
   font-weight: bold;
 }
 
-.photo p {
+.jumbotron p {
   font-size: 20px;
   color: #5a5a5a;
 }
@@ -50,8 +51,9 @@ section p {
 }
 
 section img {
-  height: 200px;
-  width: 200px;
+    width:  auto;
+    height: auto;
+    background-position: 50% 50%;
 }
 
 footer {
