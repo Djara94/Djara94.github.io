@@ -1,6 +1,5 @@
 .container  {
   position: relative;
-  top:100px;
 }
 
 nav a {
@@ -15,25 +14,27 @@ nav li {
   display: inline;
 }
 
-.jumbotron {
-  position: relative;
-  background-image: url("retriever.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
+.jumbrotron {
+ ####
 }
 
-.jumbotron h1 {
-  color: #fff;
-  font-size: 48px;  
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      max-height:50vH; 
+      margin: auto;
 }
 
-.jumbotron p {
-  font-size: 20px;
-  color: #5a5a5a;
+.carousel-inner > .item > .listbox,
+    .carousel-inner > .item > .listbox {
+      max-width: 90vW;
+    }
+
+#myCarousel {
+  font-size:90%;
 }
+
+
 
 section {
     background-color: #D4CEE2;
@@ -69,3 +70,14 @@ footer h3 {
 footer a {
   color: #00b0ff;
 }
+
+
+About me page
+.jumbotron {
+  position: relative;
+  background-image: url("retriever.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
